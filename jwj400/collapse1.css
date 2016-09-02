@@ -1,0 +1,21 @@
+/*------------------------------------------------------------------------
+# JoomlAxe CSS
+# ------------------------------------------------------------------------
+# Author: Spy2furious@gmail.com
+# Websites:  http://www.joomlaxe.com
+# License:  Creative Commons Attribution 3.0 License
+-------------------------------------------------------------------------*/
+
+
+#main.grid_8
+{
+	width: 700px;
+}
+
+#left-columns.grid_8{
+	width: 220px;
+}
+
+#content-wrapper {
+	background:#FFFFFF url(../images/content-bg-collapse1.gif) repeat-y scroll center top;
+}

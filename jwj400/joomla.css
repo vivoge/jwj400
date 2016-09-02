@@ -1,0 +1,176 @@
+/*------------------------------------------------------------------------
+# JoomlAxe CSS
+# ------------------------------------------------------------------------
+# Author: Spy2furious@gmail.com
+# Websites:  http://www.joomlaxe.com
+# License:  Creative Commons Attribution 3.0 License
+-------------------------------------------------------------------------*/
+
+
+/*======================= ARTICLE =============================*/
+.contentheading{
+	font: 2em Georgia,'Times New Roman',Times,Serif;
+	color:#444444;
+}
+
+/*.contentpaneopen a, .contentpaneopen a:link, .contentpaneopen a:visited{
+}*/
+
+.small, .createdate, .modifydate{
+	color:#B0B0B0;
+	font-size:0.95em;
+}
+
+.readon, a.readon:link, a.readon:visited{
+	background:#F8F8F8 none repeat scroll 0 0;
+	border:1px solid #EBEBEB;
+	padding:5px;
+}
+
+a.readon:hover{
+	background:#EEE none repeat scroll 0 0;
+	border:1px solid #DDD;
+}
+
+.contenttoc{
+	padding: 5px;
+	margin: 30px 10px 10px 10px;
+	float: right;
+}
+
+.contenttoc tbody tr th{
+	border-bottom: 1px solid #EAEAEA;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+a.toclink{
+	padding: 5px;
+}
+
+/*a.toclink:hover{
+}
+
+.pagenavcounter{
+}*/
+
+
+/*======================= COMPONENT =============================*/
+
+.componentheading{
+	color: #000000;
+}
+
+.contentpaneopen fieldset{
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.highlight{
+	background: #DDD;
+	padding: 0 2px;
+}
+
+.button{
+	background:#9CCF5F none repeat scroll 0 0;
+	border-color:#B6DE8F #8DB836 #8DB836 #B6DE8F;
+	border-style:solid;
+	border-width:1px;
+	color:#FFFFFF;
+	font-family:Arial,Sans-serif;
+	font-size:12px;
+	padding:2px 3px;
+}
+
+.button:hover{
+	background: #94C45B;
+}
+
+.inputbox{
+	border-color:#D4D4D4 #EBEBEB #EBEBEB #D4D4D4;
+	border-style:solid;
+	border-width:1px;
+	color:#6A6969;
+	font-family:'Lucida Grande',Verdana,Helvetica,sans-serif;
+	font-size:11px;
+	padding:5px;
+}
+
+td.sectiontableheader{
+	background:#EFFAE6 none repeat scroll 0 0;
+	border-color:#DFF4D5 #DFF4D5 #A7DF8A;
+	color:#7BA857;
+	padding:0.8em 1em;
+	border-style:solid;
+	border-width:1px;
+	text-align:left;
+}
+
+td.sectiontableheader a:link, td.sectiontableheader a:visited{
+}	
+
+tr .sectiontableentry1 td, tr .sectiontableentry2 td{
+	border-bottom:1px solid #EFEFEF;
+	padding:0.7em 1em;
+}
+
+/*========================= SEARCH ===========================*/
+/*.search{
+}*/
+.search .button{
+	width: 40px;
+	height: 30px;
+	background: transparent;
+	border: none;
+}
+
+.search .button:hover{
+	cursor: pointer;
+}
+
+.search .inputbox{
+	width: 220px;
+	padding: 5px 0 6px 5px;
+	background: transparent;
+	border: none;
+	color: #BABABA;
+	text-transform: capitalize;
+}
+
+/*======================= LOGIN ==============================*/
+#modlgn_username{
+	width: 80%;
+} 
+
+#modlgn_passwd{
+	width: 80%;
+}
+
+/*======================= BREADCRUMB =========================*/
+.breadcrumb .moduletable{
+	text-align: left;
+	float: left;
+}
+
+.breadcrumb img{
+	border: none;
+	padding: 0;
+	background: none;
+	margin: 0 0 -5px 0;
+}
+
+.pathway:link, .pathway:visited{
+}
+/*========================= POLLING ========================*/
+tbody tr td{
+	text-align: left;
+	padding: 0 0 5px 0;
+}
+tbody tr td .poll tbody tr td{
+}
+
+.poll tbody tr td div{
+	/*width: 125px;
+	border: 1px solid #3C2B00;*/
+	margin-top: 10px;
+}
